@@ -205,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 106823619}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 790171215}
+        m_TargetAssemblyTypeName: BallControl, Assembly-CSharp
+        m_MethodName: Restore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &106823619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,7 +315,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -405,7 +417,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 334709724}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 790171215}
+        m_TargetAssemblyTypeName: BallControl, Assembly-CSharp
+        m_MethodName: MoveAndRotateInSequence
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &334709724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,7 +755,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -966,7 +990,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 643515916}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 790171215}
+        m_TargetAssemblyTypeName: BallControl, Assembly-CSharp
+        m_MethodName: MoveUpAndDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &643515916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,7 +1123,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 742820741}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 790171215}
+        m_TargetAssemblyTypeName: BallControl, Assembly-CSharp
+        m_MethodName: MoveAndChangeImage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &742820741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1300,6 +1348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03be58b46cc7ce044a5d20e7b435eab6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newSprite: {fileID: 21300000, guid: b679fe95d2468df469d5deac92b1650c, type: 3}
 --- !u!1 &830746151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,7 +1514,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1544,7 +1593,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1646,7 +1695,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1654539511}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 790171215}
+        m_TargetAssemblyTypeName: BallControl, Assembly-CSharp
+        m_MethodName: Fade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1654539511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1877,7 +1938,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1891750904}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 790171215}
+        m_TargetAssemblyTypeName: BallControl, Assembly-CSharp
+        m_MethodName: MoveAndRotateInParallel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1891750904
 MonoBehaviour:
   m_ObjectHideFlags: 0
